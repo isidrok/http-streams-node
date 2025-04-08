@@ -1,0 +1,22 @@
+{
+  "name": "streams-25-04-08",
+  "version": "1.0.0",
+  "main": "src/05-pipe.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "doc": "clinic doctor --on-port 'pnpm test' -- node .",
+    "test": "curl --output nul http://localhost:8080 --limit-rate 10M"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.1",
+  "dependencies": {
+    "clinic": "^13.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
